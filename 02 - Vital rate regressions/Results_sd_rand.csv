@@ -1,0 +1,4 @@
+"","surv_Mean","surv_low","surv_high","growth_Mean","growth_low","growth_high","fruiting_Mean","fruiting_low","fruiting_high","fruits_Mean","fruits_low","fruits_high","recruit_Mean","recruit_low","recruit_high","Predictor"
+"1",1.01,0.81,1.22,0.41,0.32,0.5,1.1,0.8,1.45,0.15,0.11,0.2,0.17,0,0.72,"SiteYear:Site"
+"2",0.14,0,0.68,0.14,0,0.54,0.14,0,0.73,0.11,0,0.23,0.03,0,0.43,"Site"
+"3",NA,NA,NA,1.62,1.39,1.88,NA,NA,NA,0.36,0.34,0.38,780.38,0.84,11992.81,""
