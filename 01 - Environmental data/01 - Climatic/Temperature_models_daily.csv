@@ -1,0 +1,55 @@
+Pop,Quad,Var,formula,R2,pval,df,df.res
+BRU,1,MaxTemp,~ mtemp_2m_1 + mtemp_Sol_2 + mtemp_2m_2 + max_Sol_1 + max_30cm_1 + max_Sol_2 + max_30cm_2 + max_2m_2 + min_Sol_1 + min_30cm_1 + min_2m_1,0.8791272777267779,8.885701903448098e-49,12,118
+BRU,1,MeanTemp,~ mtemp_Sol_1 + mtemp_30cm_1 + mtemp_2m_1 + mtemp_30cm_2 + mtemp_2m_2 + max_Sol_2 + min_30cm_1 + min_2m_1,0.9241159074718139,5.7202856877209175e-64,9,121
+BRU,1,MinTemp,~ mtemp_Sol_1 + mtemp_30cm_1 + mtemp_2m_1 + mtemp_30cm_2 + mtemp_2m_2 + max_Sol_2 + max_30cm_2 + max_2m_2 + min_Sol_1 + min_2m_1 + min_Sol_2,0.9318207768483258,2.445972818669732e-63,12,118
+BRU,2,MaxTemp,~ mtemp_30cm_1 + mtemp_2m_1 + mtemp_Sol_2 + mtemp_30cm_2 + max_Sol_1 + max_Sol_2 + max_30cm_2 + max_2m_2 + min_Sol_1 + min_30cm_2 + min_2m_2,0.8969179803089766,8.08220504557306e-53,12,118
+BRU,2,MeanTemp,~ mtemp_Sol_1 + mtemp_30cm_1 + mtemp_2m_1 + mtemp_30cm_2 + mtemp_2m_2 + max_Sol_2 + min_Sol_1 + min_30cm_1 + min_2m_1 + min_30cm_2 + min_2m_2,0.9189807387405542,6.068233336483774e-59,12,118
+BRU,2,MinTemp,~ mtemp_Sol_1 + mtemp_30cm_1 + mtemp_2m_1 + mtemp_30cm_2 + mtemp_2m_2 + max_Sol_1 + max_30cm_1 + max_Sol_2 + min_2m_1,0.9114633486429186,7.990161865494619e-59,10,120
+CHA,1,MaxTemp,~ mtemp_2m_1 + mtemp_Sol_2 + mtemp_2m_2 + max_Sol_1 + max_30cm_2 + min_30cm_1 + min_Sol_2,0.853075175293261,2.2644013458622644e-38,8,99
+CHA,1,MeanTemp,~ mtemp_Sol_1 + mtemp_2m_1 + mtemp_30cm_2 + mtemp_2m_2 + min_Sol_1 + min_30cm_1 + min_Sol_2,0.9229609057418384,3.626806152039749e-52,8,99
+CHA,1,MinTemp,~ mtemp_Sol_1 + mtemp_30cm_1 + mtemp_30cm_2 + mtemp_2m_2 + max_2m_1 + max_Sol_2 + max_2m_2 + min_2m_1 + min_30cm_2 + min_2m_2,0.8938109529047216,3.115726338304757e-42,11,96
+CHA,2,MaxTemp,~ mtemp_Sol_1 + mtemp_2m_1 + mtemp_2m_2 + max_30cm_2 + min_Sol_1 + min_2m_1 + min_Sol_2,0.8170985858860449,1.0418758984406704e-33,8,99
+CHA,2,MeanTemp,~ mtemp_Sol_1 + mtemp_2m_1 + mtemp_30cm_2 + mtemp_2m_2 + max_30cm_1 + max_Sol_2 + max_30cm_2 + min_30cm_1 + min_Sol_2,0.9336625051941051,4.531778018621953e-53,10,97
+CHA,2,MinTemp,~ mtemp_30cm_1 + mtemp_2m_1 + mtemp_Sol_2 + max_2m_1 + max_Sol_2 + max_30cm_2 + max_2m_2 + min_Sol_1 + min_30cm_1 + min_2m_1 + min_30cm_2 + min_2m_2,0.9129561119310698,2.4494789595163284e-44,13,94
+CHA,3,MaxTemp,~ mtemp_2m_1 + mtemp_Sol_2 + mtemp_2m_2 + min_Sol_1 + min_2m_1 + min_Sol_2,0.6356906625363619,2.964058390750274e-14,7,73
+CHA,3,MeanTemp,~ mtemp_2m_1 + mtemp_Sol_2 + mtemp_2m_2 + max_30cm_1 + max_Sol_2 + max_30cm_2 + min_2m_1 + min_2m_2,0.9162215602618734,4.018817032822916e-35,9,71
+CHA,3,MinTemp,~ mtemp_30cm_1 + mtemp_2m_1 + mtemp_Sol_2 + max_2m_1 + max_Sol_2 + max_30cm_2 + min_Sol_1 + min_2m_2,0.9436417386804976,3.3820715470722147e-41,9,71
+GAL,1,MaxTemp,~ mtemp_Sol_1 + mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_Sol_1 + max_30cm_1 + max_2m_1 + max_Sol_2 + max_30cm_2 + max_2m_2 + min_30cm_1 + min_Sol_2 + min_30cm_2,0.8107818229600178,1.295857147203104e-50,14,159
+GAL,1,MeanTemp,~ mtemp_30cm_1 + mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_2m_1 + max_Sol_2 + max_30cm_2 + max_2m_2 + min_30cm_1,0.8720382712002881,4.8563562037674756e-068,10,163
+GAL,1,MinTemp,~ mtemp_Sol_1 + mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_Sol_1 + max_30cm_1 + max_2m_1 + max_Sol_2 + max_2m_2 + min_Sol_1 + min_2m_1 + min_Sol_2,0.8021365421870512,5.66271940424031e-50,13,160
+GAL,2,MaxTemp,~ mtemp_Sol_1 + mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_2m_1 + max_Sol_2 + max_2m_2 + min_30cm_2,0.8048836488139745,4.383985593814019e-51,9,155
+GAL,2,MeanTemp,~ mtemp_Sol_1 + mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_Sol_2 + min_2m_1 + min_30cm_2 + max_30cm_2,0.8359811782227456,7.030592568039455e-57,9,155
+GAL,2,MinTemp,~ mtemp_Sol_1 + mtemp_2m_1 + mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_Sol_1 + max_Sol_2 + max_2m_2 + min_Sol_1 + min_30cm_1 + min_2m_1 + min_Sol_2 + min_30cm_2,0.7409921587564388,1.770042119394157e-37,14,150
+GAL,3,MaxTemp,~ mtemp_30cm_1 + mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_Sol_1 + max_Sol_2 + max_2m_2 + min_30cm_2,0.6799989289847911,2.2877608933318133e-35,9,158
+GAL,3,MeanTemp,~ mtemp_Sol_1 + mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_Sol_1 + max_Sol_2 + max_2m_2 + min_30cm_1 + min_30cm_2,0.8240104931535708,1.229739506372387e-54,10,157
+GAL,3,MinTemp,~ mtemp_Sol_1 + mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_Sol_2 + max_2m_2 + min_Sol_1 + min_30cm_1 + min_2m_1 + min_Sol_2 + min_30cm_2,0.7454736685412302,1.6969857052573765e-40,12,155
+LAU,1,MaxTemp,~ mtemp_30cm_1 + max_2m_1 + max_2m_2 + min_Sol_1 + min_30cm_1 + min_2m_1 + min_Sol_2 + min_2m_2,0.6256401905150232,5.403171703513037e-26,9,138
+LAU,1,MeanTemp,~ mtemp_Sol_1 + mtemp_30cm_1 + mtemp_2m_1 + mtemp_Sol_2 + mtemp_30cm_2 + max_30cm_1 + max_2m_1 + max_Sol_2 + max_2m_2 + min_Sol_1 + min_30cm_1 + min_2m_1 + min_Sol_2 + min_30cm_2,0.900667519999809,5.413816294718828e-59,15,132
+LAU,1,MinTemp,~ mtemp_2m_1 + mtemp_Sol_2 + mtemp_30cm_2 + max_30cm_1 + max_2m_1 + max_Sol_2 + max_2m_2 + min_2m_1 + min_30cm_2 + min_2m_2,0.8252636442711008,1.4659074443011189e-46,11,136
+LAU,2,MaxTemp,~ mtemp_Sol_1 + mtemp_30cm_1 + mtemp_2m_1 + mtemp_Sol_2 + mtemp_30cm_2 + max_Sol_1 + max_30cm_1 + max_2m_1 + max_Sol_2 + max_30cm_2 + min_30cm_1 + min_2m_1 + min_Sol_2 + min_2m_2,0.8546575449021384,4.603281151258615e-59,15,159
+LAU,2,MeanTemp,~ mtemp_Sol_1 + mtemp_30cm_1 + mtemp_2m_1 + mtemp_Sol_2 + mtemp_30cm_2 + max_Sol_1 + max_30cm_1 + max_2m_1 + max_Sol_2 + max_2m_2 + min_30cm_1 + min_2m_1 + min_Sol_2 + min_30cm_2,0.9092624072627692,3.5978605311577613e-75,15,159
+LAU,2,MinTemp,~ mtemp_Sol_1 + mtemp_30cm_1 + mtemp_2m_1 + mtemp_Sol_2 + max_Sol_1 + max_30cm_2 + max_2m_2 + min_30cm_1 + min_30cm_2,0.8166404790347006,9.138234709758449e-56,10,164
+LAU,3,MaxTemp,~ mtemp_30cm_1 + mtemp_2m_1 + mtemp_Sol_2 + mtemp_30cm_2 + max_30cm_1 + max_2m_1 + max_Sol_2 + max_2m_2 + min_30cm_1 + min_2m_1,0.8758419329775067,8.670650714456807e-55,11,132
+LAU,3,MeanTemp,~ mtemp_Sol_1 + mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_Sol_1 + max_30cm_1 + max_2m_1 + max_Sol_2 + max_2m_2 + min_30cm_1 + min_2m_1,0.917944572085403,1.752277978220433e-65,12,131
+LAU,3,MinTemp,~ mtemp_30cm_1 + mtemp_2m_1 + mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_Sol_1 + max_2m_1 + max_Sol_2 + max_2m_2 + min_30cm_1 + min_Sol_2,0.8612567033356098,1.1534531903413554e-50,12,131
+PIC,1,MaxTemp,~ mtemp_2m_1 + mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_30cm_1 + max_2m_1 + max_30cm_2 + max_2m_2 + min_30cm_1 + min_2m_1,0.8122906613187095,1.3695526500720224e-64,11,193
+PIC,1,MeanTemp,~ mtemp_2m_1 + mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_30cm_1 + max_2m_1 + max_Sol_2 + max_30cm_2 + min_30cm_1 + min_2m_1,0.8744366266389237,2.5820893414884224e-81,11,193
+PIC,1,MinTemp,~ mtemp_Sol_1 + mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_Sol_1 + max_30cm_1 + max_2m_1 + max_Sol_2 + max_2m_2 + min_Sol_1 + min_2m_1 + min_Sol_2,0.8107295972811249,2.505108282243353e-62,13,191
+PIC,2,MaxTemp,~ mtemp_2m_1 + mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_Sol_1 + max_2m_1 + max_30cm_2 + min_30cm_1 + min_2m_1 + min_2m_2,0.8680601771457289,5.793297092180654e-45,11,113
+PIC,2,MeanTemp,~ mtemp_Sol_1 + mtemp_30cm_1 + mtemp_2m_1 + mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_30cm_1 + max_2m_1 + max_30cm_2 + min_Sol_1 + min_30cm_1 + min_2m_1 + min_Sol_2 + min_30cm_2,0.9245324111912866,2.287846938655001e-54,15,109
+PIC,2,MinTemp,~ mtemp_Sol_1 + mtemp_30cm_2 + mtemp_2m_2 + max_Sol_1 + max_2m_2 + min_Sol_1 + min_30cm_1 + min_Sol_2 + min_30cm_2 + min_2m_2,0.9105005416370588,2.0933082197567425e-54,11,113
+PIC,3,MaxTemp,~ mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_30cm_1 + max_30cm_2 + min_Sol_1 + min_30cm_1 + min_2m_1,0.7828838333714578,1.9446192129400988e-50,9,164
+PIC,3,MeanTemp,~ mtemp_2m_1 + mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_30cm_1 + max_2m_1 + max_Sol_2 + max_30cm_2 + min_30cm_1 + min_2m_1,0.850026601483747,1.9275576010572398e-61,11,162
+PIC,3,MinTemp,~ mtemp_2m_1 + mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_2m_1 + max_2m_2 + min_Sol_1 + min_2m_1 + min_Sol_2,0.7354945121034785,1.3576966508332714e-42,10,163
+PIC,4,MaxTemp,~ mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_30cm_1 + max_30cm_2 + min_30cm_1 + min_2m_1,0.786983827400108,3.2157090671647573e-43,8,138
+PIC,4,MeanTemp,~ mtemp_2m_1 + mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_30cm_1 + max_2m_1 + max_Sol_2 + max_30cm_2 + min_30cm_1 + min_2m_1,0.8466430958963738,5.627829943335658e-50,11,135
+PIC,4,MinTemp,~ mtemp_2m_1 + mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_2m_1 + max_Sol_2 + max_2m_2 + min_Sol_1 + min_2m_1 + min_Sol_2,0.7810548901740502,1.123185768235261e-39,11,135
+VIL,1,MaxTemp,~ mtemp_30cm_1 + mtemp_2m_1 + mtemp_Sol_2 + mtemp_2m_2 + max_Sol_1 + max_Sol_2 + max_30cm_2 + max_2m_2 + min_Sol_1 + min_Sol_2 + min_30cm_2,0.7162923683661103,1.1685418353695857e-36,12,154
+VIL,1,MeanTemp,~ mtemp_Sol_1 + mtemp_30cm_1 + mtemp_2m_1 + mtemp_Sol_2 + mtemp_2m_2 + max_Sol_2 + max_2m_2 + min_Sol_1 + min_2m_2,0.8412237172524849,1.0044076094307632e-57,10,156
+VIL,1,MinTemp,~ mtemp_Sol_1 + mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_2m_1 + max_Sol_2 + min_30cm_2,0.8669336556739918,7.846613196864408e-66,8,158
+VIL,2,MaxTemp,~ mtemp_30cm_1 + mtemp_2m_1 + mtemp_Sol_2 + mtemp_2m_2 + max_Sol_1 + max_Sol_2 + max_2m_2 + min_2m_1 + min_Sol_2 + min_2m_2,0.7148973683882676,2.6327957620441597e-37,11,155
+VIL,2,MeanTemp,~ mtemp_Sol_1 + mtemp_Sol_2 + mtemp_2m_2 + max_30cm_1 + max_2m_1 + max_Sol_2 + max_2m_2 + min_Sol_1 + min_2m_2,0.8520095827958265,4.344363115937109e-60,10,156
+VIL,2,MinTemp,~ mtemp_Sol_1 + mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_2m_1 + max_Sol_2 + max_2m_2 + min_30cm_2 + min_Sol_2,0.8629347123412183,1.1458550140042296e-62,10,156
+VIL,3,MaxTemp,~ mtemp_Sol_1 + mtemp_2m_1 + mtemp_Sol_2 + mtemp_2m_2 + max_Sol_1 + max_30cm_1 + max_Sol_2 + max_2m_2 + min_2m_1 + min_Sol_2 + min_2m_2,0.702562218929446,6.986894361508262e-38,12,165
+VIL,3,MeanTemp,~ mtemp_2m_1 + mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_Sol_1 + max_30cm_1 + max_Sol_2 + max_30cm_2 + max_2m_2 + min_2m_1 + min_2m_2,0.8336767008500519,2.2225660062963216e-58,12,165
+VIL,3,MinTemp,~ mtemp_Sol_1 + mtemp_Sol_2 + mtemp_30cm_2 + mtemp_2m_2 + max_2m_1 + max_Sol_2 + max_2m_2 + min_30cm_1 + min_2m_1 + min_2m_2,0.8444197658519181,9.767277464547208e-62,11,166

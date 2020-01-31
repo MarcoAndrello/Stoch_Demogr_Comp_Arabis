@@ -1,0 +1,6 @@
+"","AvgMeanTemp","AvgMinTemp","AvgMaxTemp","AvgAmp","NbFreeze"
+"AvgMeanTemp",1,0.81,0.88,0.5,-0.54
+"AvgMinTemp",0.81,1,0.48,-0.07,-0.75
+"AvgMaxTemp",0.88,0.48,1,0.84,-0.26
+"AvgAmp",0.5,-0.07,0.84,1,0.17
+"NbFreeze",-0.54,-0.75,-0.26,0.17,1
