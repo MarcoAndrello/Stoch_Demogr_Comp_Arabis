@@ -1,0 +1,3 @@
+"","surv_Mean","surv_low","surv_high","growth_Mean","growth_low","growth_high","fruiting_Mean","fruiting_low","fruiting_high","fruits_Mean","fruits_low","fruits_high","recruit_Mean","recruit_low","recruit_high","r.squared"
+"1",0.07,0.03,0.12,0.25,0.2,0.31,0.46,0.38,0.56,0.44,0.36,0.53,0.04,0,0.1,"R2m"
+"2",0.41,0.29,0.56,0.36,0.3,0.49,0.8,0.69,0.88,0.57,0.51,0.64,0.05,0.02,0.18,"R2c"
